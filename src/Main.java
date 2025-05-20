@@ -2,8 +2,9 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-    int amount = 54029;
-    int bonus = amount / 20;
-    System.out.println("Количество полученных бонусов - " + bonus + "!");
+        int amount = 54029;
+        int bonusReq = 20;
+        int bonus = amount / bonusReq;
+        System.out.println("Количество полученных бонусов - " + bonus + "!");
     }
 }
